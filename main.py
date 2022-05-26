@@ -3,6 +3,8 @@ b=0
 while 1:
     if input.button_is_pressed(Button.AB):
         basic.show_number(a+b)
+        a=0
+        b=0
     elif input.button_is_pressed(Button.A):
         a=a+1
         basic.show_number(a)
